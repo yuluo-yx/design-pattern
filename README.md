@@ -6,6 +6,8 @@ Go & Java 实现
 
 ![设计原则](https://github.com/mohuishou/go-design-pattern/blob/master/imgs/img01.jpg)
 
+## 设计模式
+
 ![设计模式](https://github.com/mohuishou/go-design-pattern/blob/master/imgs/img02.jpg)
 
 ### 创建型
