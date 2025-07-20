@@ -1,0 +1,5 @@
+# ignore java build artifacts
+**/main
+
+.DS_Store
+.vscode/
