@@ -97,9 +97,6 @@ A: Controller 默认是单例的.
   2. 必须要定义一个非静态成员变量时，通过注解 `@Scope(“prototype”)`，设置为多例模式;
   3. 在 Controller 中使用 ThreadLocal 变量。
 
-Q: 
-A: 
-
 ## 4. 扩展
 
 1. Java 的初始化时机：https://blog.csdn.net/sinat_36817189/article/details/93928062
