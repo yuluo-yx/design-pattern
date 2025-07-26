@@ -1,5 +1,5 @@
 go-dev:
-	cd go && go run main.go builder.go models.go options.go
+	cd go && go run main.go models.go simple_factory.go factory_method.go abstract_factory.go 
 
 java-dev:
 	cd java && javac -d . *.java && java main.Main

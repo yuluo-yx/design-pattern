@@ -27,6 +27,7 @@ public class SimpleFactory {
     // 根据传入参数的不同构建不同的产品实例
     public static ChatModel create(String modelType) {
 
+        // use switch-case or if-else to determine the model type
         if ("DashScope".equalsIgnoreCase(modelType)) {
             return new SimpleDashScope();
         } else if ("OpenAI".equalsIgnoreCase(modelType)) {
