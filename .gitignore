@@ -1,6 +1,8 @@
 # ignore java build artifacts
 **/main
 **/ioc
+**/*.iml
 
+**/.idea
 .DS_Store
 .vscode/
