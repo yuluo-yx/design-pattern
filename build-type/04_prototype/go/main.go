@@ -9,7 +9,6 @@ func main() {
 
 	updateAt, _ := time.Parse("2006", "2020")
 
-	// 浅拷贝
 	oldWords := KeyWords{
 		"golang": &KeyWord{
 			Word:     "golang",
