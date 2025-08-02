@@ -1,14 +1,14 @@
 # Design Pattern
 
-Go & Java 实现
+Go & Java 实现。
 
 ## 设计原则
 
 1. 开放封闭原则（Open Close Principle）
-2. 里氏代换原则（Liskov Substitution Principle）
-3. 依赖倒转原则（Dependence Inversion Principle）
+2. 里氏替换原则（Liskov Substitution Principle）
+3. 依赖倒置原则（Dependence Inversion Principle）
 4. 接口隔离原则（Interface Segregation Principle）
-5. 迪米特法则（最少知道原则）（Demeter Principle）
+5. 迪米特法则（最少知识原则）（Demeter Principle）
 6. 单一职责原则（Principle of single responsibility）
 
 ![设计原则](https://github.com/mohuishou/go-design-pattern/blob/master/imgs/img01.jpg)
