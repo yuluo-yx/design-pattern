@@ -162,10 +162,9 @@ class JDKUserProxyHandler implements InvocationHandler {
 ## 3. 面试题
 
 Q：OpenFeign 中怎么样使用了代理设计模式？
-<br>
+
 A：OpenFeign的动态代理实现原理是使用 Java 动态代理技术，通过创建代理对象拦截 OpenFeign 接口的方法调用，并将这些调用转发到一个 HTTP 客户端进行处理。
 
 Q：Spring AOP 代理实现
-<br>
+
 A：Spring 提供了 JDK 和 CGLIB 两种代理方式，默认使用 JDK 的动态代理来实现 AOP。**但是遵循一个原则：如果加入容器的目标对象有实现接口,用 JDK 代理；如果目标对象没有实现接口,用 CGLIB 代理。**
-<br>

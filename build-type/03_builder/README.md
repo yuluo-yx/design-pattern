@@ -225,10 +225,8 @@ func NewDataSourceConfig(name string, opts ...DataSourceConfigOptFunc) (*DataSou
 ## 3. 相关面试题
 
 Q: 建造者与工厂模式的区别？
-<br>
 A: 注重点不同: 建造者模式 更注重于方法的调用顺序 ; 工厂模式注重于创建实例产品 , 不关心方法调用的顺序 ;
-<br>
-&nbsp;&nbsp;创建对象力度不同: 创建对象的力度不同 , 建造者模式可以创建复杂的产品 , 由各种复杂的内部属性组成, 工厂模式创建出来的都是相同的实例对象。
+创建对象力度不同: 创建对象的力度不同 , 建造者模式可以创建复杂的产品 , 由各种复杂的内部属性组成, 工厂模式创建出来的都是相同的实例对象。
 
 ```java
 var options = DashScopeChatOptions.builder()
