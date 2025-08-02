@@ -6,3 +6,5 @@
 **/.idea
 .DS_Store
 .vscode/
+
+struct-type\05_proxy\go\proxy_generated.go
