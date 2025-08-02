@@ -151,23 +151,23 @@ class OpenAIChatModelFactory implements IFactoryMethod {
 ## 3. 相关面试题
 
 Q：什么是工厂方法/说说工厂方法定义
-
+<br>
 A: 工厂模式是一种创建型设计模式
    定义一个用于创建对象的接口，把对象的创建和使用的过程分开，解耦合。
 
 Q：能手写一下简单工厂吗？
-
+<br>
 A：见代码
 
 Q：工厂方法在 Spring 的用法
-
+<br>
 A：BeanFactory
 
 ## 4. 扩展
 
 IOC（Inversion of Control） 与 DI：
-
+<br>
 DI （Dependency Injection） 容器是 Spring 中的核心特性，用来管理对象创建，生命周期，依赖关系等。可以看作是工厂方法的高级用法。
 IOC：控制反转，指的是将设计好的实例 Bean 交由 DI 容器创建，依赖对象的获取被反转了。（正转既是由开发者手动控制）
-
+<br>
 两者关系：两者总是同时出现，IOC 是一种设计思想，目的在于解除对象之间的依赖关系，松耦合。而 DI 是实现 IOC 的具体实现方式，通过 IOC 容器，将对象依赖的其他对象注入到该对象中。
