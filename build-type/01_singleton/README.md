@@ -95,7 +95,7 @@ Q: Spring 中的 Controller 是单例还是多例，并发安全吗？
 <br>
 A: Controller 默认是单例的.
 <br>
-  1. 并且在方法中不要使用非静态的成员变量;
+  1. 在方法中不要使用非静态的成员变量;
   2. 必须要定义一个非静态成员变量时，通过注解 `@Scope(“prototype”)`，设置为多例模式;
   3. 在 Controller 中使用 ThreadLocal 变量。
 
