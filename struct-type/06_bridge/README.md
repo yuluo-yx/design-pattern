@@ -1,4 +1,4 @@
-# 桥接模式 Bridge Design Pattern）
+# 桥接模式 （Bridge Design Pattern）
 
 桥接模式：将抽象部分与它的实现部分分离，使得可以独立变化。又称为柄体(Handle and Body)模式或接口(Interface)模式。其涉及一个接口，它充当一个桥，使得具体类可以在不影响客户端代码的情况下改变。
 

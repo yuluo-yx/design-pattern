@@ -1,5 +1,5 @@
 go-dev:
-	cd go && go run main.go
+	cd go && go run main.go wrapper.go
 
 java-dev:
 	cd java && javac -d . *.java && java main.Main
