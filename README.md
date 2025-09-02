@@ -2,6 +2,8 @@
 
 Go & Java 实现。
 
+> 设计模式是对软件系统中常用写法的总结与抽象，不经意间可能就使用某种了设计模式 🚀
+
 ## 设计原则
 
 1. 开放封闭原则（Open Close Principle）
@@ -48,8 +50,21 @@ Go & Java 实现。
 21. 解释器模式（Interpreter Design Pattern）
 22. 中介者模式（Mediator Design Pattern）
 
+## 不常用设计模式
+
+1. 原型模式
+2. 门面模式
+3. 组合模式
+4. 享元模式
+5. 访问者模式
+6. 备忘录模式
+7. 命令模式
+8. 解释器模式
+9. 中介模式
+
 ## 参考
 
 1. https://github.com/mohuishou/go-design-pattern
-2. https://github.com/senghoo/golang-design-pattern
-3. https://github.com/youlookwhat/DesignPattern
+2. https://refactoringguru.cn/design-patterns/
+3. https://github.com/senghoo/golang-design-pattern
+4. https://github.com/youlookwhat/DesignPattern
