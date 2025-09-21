@@ -37,5 +37,3 @@ Spring MVC 中的 HandlerAdapter 是经典的适配器设计模式。
 ## 2. 实现分析
 
 一个场景：遗留的老设备输出是 xml 数据。现代新系统都使用 json 输入。
-
-

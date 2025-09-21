@@ -1,4 +1,4 @@
-# 装饰器模式 （Bridge Design Pattern）
+# 装饰器模式 （Decorator Design Pattern）
 
 装饰器模式主要对现有的类进行包装，在不改变原有类对象和定义的情况下，扩展对象的其他功能。是结构型设计模式。例如 Spring 框架中的各种 XXXWrapper 或者 XXXDecotator 类。
 
